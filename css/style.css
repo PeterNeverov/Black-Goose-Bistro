@@ -1,21 +1,44 @@
 body {
   background-color: #faf2e4;
   margin: 0 10%;
-  font-family: Verdana, sans-serif;
+  font-family: Georgia, sans-serif;
   font-size: 100%;
+  line-height: 1.75em;
 }
 
 h1 {
   text-align: center;
   font-family: Marko One;
-  font-weight: normal;
+  font-weight: bold;
   font-size: 150%;
   text-transform: uppercase;
   border-bottom: 1px solid #57b1dc;
   margin-top: 30px;
+  text-shadow: 0.05em 0.05em 0.1em lightslategray;
 }
 
 h2 {
-  color: #d1633c;
+  color: olive;
   font-size: 1em;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.5em;
+}
+
+h2 + p {
+  text-align: center;
+  font-style: italic;
+}
+
+dt {
+  font-weight: bold;
+  color: sienna;
+}
+strong {
+  color: tomato;
+}
+.price {
+  font-family: Georgia, serif;
+  font-style: italic;
+  color: gray;
 }
